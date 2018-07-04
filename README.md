@@ -15,6 +15,10 @@ MDK4 is licenced under the GPLv2 or later.
 
 # Installation
 
+		apt install -y \
+		pkg-config \
+		libpcap0.8-dev \
+		libnl-genl-3-dev
 		cd /mdk4-master
 		make
 		sudo make install
@@ -262,7 +266,3 @@ FULL OPTIONS:
 			 if speed is not specified. Speed value is in milliseconds!
 		      -p <pps>
 			 Set speed in packets per second (Default: 250)
-
-
-
-
